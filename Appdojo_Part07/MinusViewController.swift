@@ -11,6 +11,7 @@ class MinusViewController: UIViewController {
     @IBOutlet private weak var textField1: UITextField!
     @IBOutlet private weak var textField2: UITextField!
     @IBOutlet private weak var resultLabel: UILabel!
+
     @IBAction private func pushedButton(_ sender: Any) {
         view.endEditing(true)
         let value1 = Int(textField1.text!) ?? 0
